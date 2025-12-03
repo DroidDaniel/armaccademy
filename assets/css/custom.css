@@ -1,0 +1,35 @@
+.main-slider__content-title{
+    font-size: 80px;
+}
+
+.about-one__right-list{
+    margin-top: 0;
+}
+
+.custom-about-title{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.registration-one{
+    padding-top: 60px;
+    padding-bottom: 160px;
+}
+
+.testimonials-one__single-text{
+    height: 200px;
+    overflow: auto;
+}
+
+.course-details__new-courses{
+    margin-top: 0;
+}
+
+.vis-hiden{
+    visibility: hidden;
+}
+
+.course-details__new-courses-list-item-content{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}

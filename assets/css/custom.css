@@ -33,3 +33,19 @@
     padding-top: 15px;
     padding-bottom: 20px;
 }
+
+.mobile-nav__content .main-menu__list li a button{
+    display: none;
+}
+
+.logo-box a,
+.footer-widget__about-logo a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.course-details__new-courses-list-item-img img{
+    width: 66px;
+    height: 66px;
+    object-fit: contain;
+}

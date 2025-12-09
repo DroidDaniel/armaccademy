@@ -78,3 +78,18 @@
 
 /*************Scroll Bar******************/
 
+.why-choose-one__right-img img{
+   max-width: 710px;
+}
+
+@media screen and (max-width:767px) {
+   .why-choose-one__right-img img{
+     max-width: 410px;
+     height: 555px;
+     object-fit: contain;
+    } 
+
+    .why-choose-one__right-img-overlay{
+        padding: 10px 35px 8px;
+    }
+}

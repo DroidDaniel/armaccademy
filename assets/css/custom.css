@@ -82,6 +82,22 @@
    max-width: 710px;
 }
 
+.main-header--one__top-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header--one__top-logo img{
+    height: 90px;
+}
+
+.why-choose-one__right-img-overlay{
+    bottom: 0;
+    left: 0;
+    transform: none;
+    top: auto;
+}
+
 @media screen and (max-width:767px) {
    .why-choose-one__right-img img{
      max-width: 410px;
@@ -91,5 +107,27 @@
 
     .why-choose-one__right-img-overlay{
         padding: 10px 35px 8px;
+    }
+
+    .main-header--one__top-inner{
+        justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    .why-choose-one__right-img-overlay{
+        left: 0;
+        transform: none;
+        top: 356px;
+        bottom: auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .registration-one__left-text.custom-text-black{
+        color: #fff !important;
     }
 }

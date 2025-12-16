@@ -133,9 +133,15 @@
 }
 
 .footer-widget__about-logo img{
-    height: 90px;
+    height: 180px;
 }
 
-.footer-widget__links{
-    margin-left: 0;
+@media screen and (max-width:767px) {
+    .footer-widget__about-logo img{
+        height: 90px;
+    }
 }
+
+/* .footer-widget__links{
+    margin-left: 0;
+} */

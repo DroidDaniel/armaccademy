@@ -135,3 +135,7 @@
 .footer-widget__about-logo img{
     height: 90px;
 }
+
+.footer-widget__links{
+    margin-left: 0;
+}

@@ -133,13 +133,7 @@
 }
 
 .footer-widget__about-logo img{
-    height: 60px;
-}
-
-@media screen and (max-width:767px) {
-    .footer-widget__about-logo img{
-        height: 90px;
-    }
+    height: 35px;
 }
 
 @media screen and (max-width:992px) {

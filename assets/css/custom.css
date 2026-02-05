@@ -13,7 +13,7 @@
 
 .registration-one{
     padding-top: 60px;
-    padding-bottom: 160px;
+    padding-bottom: 0;
 }
 
 .testimonials-one__single-text{
@@ -333,4 +333,51 @@
     padding: 0px 0px 120px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Vision Mission 3-Column Layout */
+.vision-mission-column{
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.vision-mission-column .section-title__title{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.vision-mission-text{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.vision-mission-image{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.vision-mission-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 992px) {
+    .vision-mission-column{
+        margin-bottom: 30px;
+    }
+    
+    .vision-mission-image{
+        order: -1;
+        margin-bottom: 30px;
+    }
+}
+
+.registration-one__bg{
+    bottom: 0;
 }

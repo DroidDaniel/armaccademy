@@ -273,29 +273,15 @@
 
 .course-tabs-nav .nav-tabs .nav-link {
     background: #002c63;
-    border: 2px solid #e9ecef;
-    border-radius: 8px;
-    color: #6c757d;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 5px 30px;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+    padding: 10px 30px 12px;
 }
 
-.course-tabs-nav .nav-tabs .nav-link:hover {
-    background: #ff6d00;
-    border-color: #ff6d00;
-    color: #fff;
-    transform: translateY(-2px);
-}
-
+.course-tabs-nav .nav-tabs .nav-link:hover,
 .course-tabs-nav .nav-tabs .nav-link.active {
-    background: #002c63;
-    border-color: #002c63;
+    background: #ff6d00;
     color: #fff;
-    box-shadow: 0 5px 15px rgba(255, 109, 0, 0.3);
 }
 
 .tab-content {
